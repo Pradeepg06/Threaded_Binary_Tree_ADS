@@ -1,6 +1,7 @@
 🌳 Threaded Binary Tree Visualizer with Community Detection
 
 📌 Overview
+
 This project is a web-based visualization tool for understanding the Threaded Binary Tree (TBT) along with a simple community detection mechanism.
 
 It allows users to:
@@ -11,12 +12,14 @@ It allows users to:
 5.Detect communities based on tree relationships
 
 🎯 Objectives
+
 1. Demonstrate the working of Threaded Binary Trees
 2. Provide interactive visualization of tree operations
 3. Apply tree structure for simplified community detection
 4. Improve conceptual understanding through UI
 
 🧠 Concept Used
+
 🔹 Threaded Binary Tree (TBT)
 A Threaded Binary Tree replaces NULL pointers with threads that point to:
 1. Inorder predecessor
@@ -26,23 +29,28 @@ This helps in:
 2. No recursion or stack required
 
 ⚙️ Features
+
 ✅ Insert Operation
+
 1. Inserts node maintaining BST property
 2. Updates threads automatically
 3. Tree redraws dynamically
 
 ✅ Search Operation
+
 1. Step-by-step animated traversal
 2. Highlights nodes during search
 3. Displays alert if node not found
 
 ✅ Traversals
+
 1. Inorder
 2. Preorder
 3. Postorder
 Displayed using popup output.
 
 ✅ Visualization
+
 1. Node divided into 5 parts: L | ltag | data | rtag | R
 2. Black lines → child links
 3. Red dashed lines → threads
@@ -50,14 +58,20 @@ Displayed using popup output.
 5. Dynamic layout (no overlapping)
 
 ✅ Community Detection (Simplified)
+
 Communities are generated based on tree structure.
+
 🔹 Logic:
+
 Node + Left Child + Right Child
+
 🔹 Example:
+
 Node 50 → [50, 30, 70]  
 Node 30 → [30, 20, 40]
 
 🧩 How It Works
+
 1. User inserts values
 2. Tree is built using threaded binary tree logic
 3. Visualization updates automatically
@@ -68,6 +82,7 @@ Node 30 → [30, 20, 40]
    4.4 Output is displayed
 
 📁 Project Structure
+
 project/
 │── index.html
 │── style.css
@@ -78,12 +93,14 @@ project/
 │── community.js
 
 🖥️ Technologies Used
+
 1. HTML5
 2. CSS3
 3. JavaScript (Vanilla JS)
 4. Canvas API
 
 🚀 How to Run
+
 1. Download or clone the repository
 2. Open index.html in any browser
 3. Use the interface:
@@ -93,11 +110,13 @@ project/
    3.4 Detect Community → Show communities
 
 ⚠️ Note
+
 1. Community detection is a simplified approach
 2. Inspired by research concepts
 3. Focus is on visualization and understanding
    
 📈 Future Enhancements
+
 1. Real graph-based community detection
 2. Weighted connections
 3. Animated community highlighting
