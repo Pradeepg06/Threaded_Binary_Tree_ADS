@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Threaded Binary Tree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Threaded Binary Tree Visualizer</h1>
+
+<div class="controls">
+    <input type="text" id="value" placeholder="Enter value">
+
+    <button onclick="insertNode()">Insert</button>
+    <button onclick="searchNode()">Find</button>
+    <button onclick="printTraversal()">Print</button>
+    <button onclick="runCommunityDetection()">Detect Community</button>
+</div>
+
+<!-- 🔥 OUTPUT AREA -->
+<div class="output-container">
+    <div id="output"></div>
+</div>
+
+<!-- 🔥 CANVAS WRAPPER -->
+<div style="overflow-x: auto;">
+    <canvas id="canvas"></canvas>
+</div>
+
+<!-- ORDER IS IMPORTANT -->
+<script src="script.js"></script>
+<script src="insert.js"></script>
+<script src="search.js"></script>
+<script src="traversal.js"></script>
+<script src="community.js"></script>
+
+</body>
+</html>
